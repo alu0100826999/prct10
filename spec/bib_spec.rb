@@ -201,6 +201,26 @@ describe Biblio do
         
     end
     
+end
+
+describe "Cita" do
+    context "Cita" do
+        before :each do
+            @book1 = Libro.new(["Dave Thomas", "Andy Hunt"],"Programming Ruby 1.9 & 2.0: The Pragmatic Programmers' Guide", "(The Facets of Ruby)", "Pragmatic Bookshelf", "4 edition", "(July 7, 2013)", ["ISBN-13: 978-1937785499","ISBN-10: 1937785491"])
+            @revista1 = Revista.new("Josefa Garcia", "Vogue", "", "1 edition", "ISNN-10: 1449325866")
+            @period1 = Periodico.new("Scott Chacon", "Hola", "David Flanagan", "Richard Silverman")
+            @elect1 = Electronico.new(["Yukihiro Matsumoto", "Yukki Hono"], "The Ruby Programming Language", "https://www.google.es/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8")
+            @cita= Cita.new()
+        end
+    end 
+     
+    it "Podemos insertar las referencias" do 
+        #@cita.insert_cita(@book1)
+        #@cita.insert_cita(@revista1)
+        #@cita.insert_cita(@period1)
+        #@cita.insert_cita(@elect1)
+    end
+    
 
 end
 

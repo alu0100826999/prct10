@@ -69,12 +69,15 @@ class Listadoble
         end
         
         def each
-           nodo = @head
-           while (nodo != nil) 
+            nodo = @head
+            while (nodo != nil) 
                 yield nodo.value
                 nodo = nodo.next
-           end
-       end
+            end
+        end
+       
+       
+       
     
     
 end
