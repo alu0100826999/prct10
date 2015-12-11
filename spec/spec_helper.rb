@@ -4,7 +4,7 @@
 # loaded once.
 #
 
-require ’coveralls’
+require 'coveralls'
 Coveralls.wear!
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
