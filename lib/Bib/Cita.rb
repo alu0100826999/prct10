@@ -5,7 +5,7 @@ Nodo2 = Struct.new(:value, :next, :prev)
 class Cita 
 
     def initialize()
-		@listadoble = Listadoble.new()
+		@listadoble = Lista.new()
     end
         
     def to_s 
